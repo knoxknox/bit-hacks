@@ -79,3 +79,6 @@ x ^ (1<<n)
 0b1101 ^ (1<<1) => '1111'
 0b1101 ^ (1<<3) => '0101'
 ```
+
+## resources
+https://calleerlandsson.com/2014/02/06/rubys-bitwise-operators/
