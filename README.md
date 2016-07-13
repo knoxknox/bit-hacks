@@ -80,6 +80,16 @@ x ^ (1<<n)
 0b1101 ^ (1<<3) => '0101'
 ```
 
+## 6: shift-left & shift-right
+```
+2 << 1 => '4', the same as 2 * (2**1)
+2 << 2 => '8', the same as 2 * (2**2)
+8 >> 1 => '4', the same as 8 / (2**1)
+8 >> 2 => '2', the same as 8 / (2**2)
+9 >> 2 => '2', the same as 9 / (2**2)
+9 << 4 => '144', the same as 9 * (2**4)
+```
+
 ## resources
 - http://www.ml-ip.com/assets/images/bin-num-vals.gif
 - https://calleerlandsson.com/2014/02/06/rubys-bitwise-operators/
