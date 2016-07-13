@@ -81,4 +81,5 @@ x ^ (1<<n)
 ```
 
 ## resources
-https://calleerlandsson.com/2014/02/06/rubys-bitwise-operators/
+- http://www.ml-ip.com/assets/images/bin-num-vals.gif
+- https://calleerlandsson.com/2014/02/06/rubys-bitwise-operators/
