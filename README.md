@@ -92,4 +92,7 @@ x ^ (1<<n)
 
 ## resources
 - http://www.ml-ip.com/assets/images/bin-num-vals.gif
+- http://2016-aalto-c.mooc.fi/en/static/pics/bit-ops.jpg
+- http://2016-aalto-c.mooc.fi/en/static/pics/bit-shift.jpg
+- http://2016-aalto-c.mooc.fi/en/static/pics/byte-order.jpg
 - https://calleerlandsson.com/2014/02/06/rubys-bitwise-operators/
