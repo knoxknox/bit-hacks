@@ -120,7 +120,7 @@ bytes.pack('C*') => 'string' (pack as 8-bit unsigned int)
 # string to bytes
 'string'.unpack('c*') => [115, 116, 114, 105, 110, 103]
 'string'.unpack('C*') => [115, 116, 114, 105, 110, 103]
-'c3RyaW5n'.unpack('m0') => decoded from base64 as 'string'
+'c3RyaW5n'.unpack('m0') => 'string' (base64 decoded string)
 ```
 ```
 # example of xor strings
