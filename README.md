@@ -123,9 +123,17 @@ bytes.pack('C*') => 'string' (pack as 8-bit unsigned int)
 'c3RyaW5n'.unpack('m0') => 'string' (base64 decoded string)
 ```
 ```
-# example of xor strings
-sequence1, sequence2 = 'string1'.bytes, 'string2'.bytes
-sequence1.zip(sequence2).map { |(x, y)| x ^ y }.pack('c*')
+# example of decoding
+=> b - bit string (LSB first)
+=> B - bit string (MSB first)
+=> h - hex string (low nibble first)
+=> H - hex string (high nibble first)
+
+'string'.unpack('H*').first => '737472696e67'
+'string'.bytes.map { |x| x.to_s(16) }.join => '737472696e67'
+
+'string'.unpack('B*').first => 011100...100111
+'string'.bytes.map { |x| x.to_s(02) }.join => 011100...100111
 ```
 
 ## resources
