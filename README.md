@@ -150,7 +150,7 @@ bytes.pack('C*') => 'string' (pack as 8-bit unsigned int)
 ```
 
 ## resources
+- https://calleerlandsson.com/rubys-bitwise-operators
 - http://2016-aalto-c.mooc.fi/en/static/pics/bit-ops.jpg
 - http://2016-aalto-c.mooc.fi/en/static/pics/bit-shift.jpg
 - http://2016-aalto-c.mooc.fi/en/static/pics/byte-order.jpg
-- https://calleerlandsson.com/2014/02/06/rubys-bitwise-operators/
