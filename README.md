@@ -73,7 +73,7 @@ x ^ 1s = ~x => 1010 ^ 1111 == 0101
 (0b1001>>3) & 1 => '1'
 ```
 
-## 3: set the n-th bit
+## 4: set the n-th bit
 ```
 x | (1<<n)
 ```
@@ -83,7 +83,7 @@ x | (1<<n)
 0b0010 | (1<<3) => '1010'
 ```
 
-## 4: unset the n-th bit
+## 5: unset the n-th bit
 ```
 x & ~(1<<n)
 ```
@@ -93,7 +93,7 @@ x & ~(1<<n)
 0b1111 & ~(1<<3) => '0111'
 ```
 
-## 5: toggle the n-th bit
+## 6: toggle the n-th bit
 ```
 x ^ (1<<n)
 ```
@@ -103,7 +103,7 @@ x ^ (1<<n)
 0b1101 ^ (1<<3) => '0101'
 ```
 
-## 6: shift-left & shift-right
+## 7: shift-left & shift-right
 ```
 2 << 1 => '4', the same as 2 * (2**1)
 2 << 2 => '8', the same as 2 * (2**2)
@@ -113,7 +113,7 @@ x ^ (1<<n)
 9 << 4 => '144', the same as 9 * (2**4)
 ```
 
-## 7: manipulation with bytes in ruby
+## 8: manipulation with bytes in ruby
 ```
 97         => dec (97)
 0x61       => hex (97)
